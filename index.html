@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nixplay sync</title><style>body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}a{color:#1a5fb4}footer{margin-top:40px;font-size:.9em;color:#666}</style></head><body>
+<h1>Nixplay sync</h1>
+<p>Nixplay sync is a small personal Google Apps Script made by <a href="https://github.com/ggraat">ggraat</a>. It runs in the owner's own Google account and is not offered to other users.</p>
+<h2>What it does</h2>
+<ol>
+<li>Every few weeks it emails the owner a link to the Google Photos Picker.</li>
+<li>The owner selects photos in the Picker.</li>
+<li>The script downloads only those selected photos in a reduced size and emails them to the owner's own Nixplay digital photo frame.</li>
+</ol>
+<h2>Google data used</h2>
+<p>The app requests read-only access to photos the user explicitly selects via the Google Photos Picker API (<code>photospicker.mediaitems.readonly</code>), plus permission to send email and run scheduled triggers. It cannot see any other photos in the library.</p>
+<footer><a href="/">Home</a> · <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Service</a></footer></body></html>
